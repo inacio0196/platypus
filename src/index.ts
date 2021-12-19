@@ -1,1 +1,3 @@
-export const HelloWorld = (name: string) => `Hello World ${name}`;
+import { SimpleMask } from './functions'
+
+export const ApplyMask = SimpleMask
