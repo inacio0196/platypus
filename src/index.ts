@@ -1,3 +1,7 @@
 import { SimpleMask } from './functions'
 
-export const ApplyMask = SimpleMask
+const apply = SimpleMask
+
+export default {
+  apply
+}
