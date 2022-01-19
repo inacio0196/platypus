@@ -1,4 +1,4 @@
-<img title="" src="file:///home/rafael/Imagens/Projects/Platypus/platypus-logo.png" alt="" width="194" data-align="center">
+<img title="" src=".github/assets/platypus-logo.png" alt="" width="194">
 
 # Ornitorrinco
 
