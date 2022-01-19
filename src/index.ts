@@ -1,6 +1,6 @@
 import { SimpleMask } from './functions'
 
-const apply = SimpleMask
+const apply = SimpleMask  
 
 export default {
   apply
