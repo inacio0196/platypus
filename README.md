@@ -48,7 +48,7 @@ const Component = () => {
   }
 
   return (
-    <h1>User Code: {44521}</h1> // User Code: 44.52-1
+    <h1>User Code: {formatUserCode(44521)}</h1> // User Code: 44.52-1
   )
 }
 ```
