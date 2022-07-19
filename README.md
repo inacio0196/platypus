@@ -6,7 +6,7 @@
 
 ## Motivação
 
-Já me deparei muitas vezes necessitando utilizar **libs** para utilização de máscaras nos inputs dos meus projetos [React](https://pt-br.reactjs.org/), essas mesmas libs na maioria das vezes estão integradas no próprio input, toda vez que comecei um projeto novo e criei o design system do frontend me deparei com o momento em que tive que usar umas dessas libs para mascarar meus inputs e até mesmo alguns valores na tela, o mesmo serve para inputs com valor monetário, percebi que tinha que recriar meus componentes ou fazer uma função [replace]([String.prototype.replace() - JavaScript | MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/replace)) enorme para cada máscara se quisesse utilizar meu componente original de input, algo assim:
+Já me deparei muitas vezes necessitando utilizar **libs** para utilização de máscaras nos inputs dos meus projetos [React](https://pt-br.reactjs.org/), essas mesmas libs na maioria das vezes estão integradas no próprio input, toda vez que comecei um projeto novo e criei o design system do frontend me deparei com o momento em que tive que usar umas dessas libs para mascarar meus inputs e até mesmo alguns valores na tela, o mesmo serve para inputs com valor monetário, percebi que tinha que recriar meus componentes ou fazer uma função [replace](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/replace) enorme para cada máscara se quisesse utilizar meu componente original de input, algo assim:
 
 ```typescript
 const applyCnpj = (value: string): string => {
