@@ -23,7 +23,7 @@ const applyCnpj = (value: string): string => {
 }
 ```
 
-É difícil de ler, portanto difícil de dar manutenção e não é todo desenvolvedor que gosta de aprender [Expressões Regulares]([Expressões Regulares - JavaScript | MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Regular_Expressions)), e para suprir a necessidade da nossa aplicação teríamos que ter várias funções parecidas com o mesmo nível de complexidade para aplicar nossas máscaras nos inputs, foi pensando nisso que eu tive a ideia de fazer o **Platypus** portanto pense no seguinte cenário:
+É difícil de ler, portanto difícil de dar manutenção e não é todo desenvolvedor que gosta de aprender [Expressões Regulares](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Regular_Expressions), e para suprir a necessidade da nossa aplicação teríamos que ter várias funções parecidas com o mesmo nível de complexidade para aplicar nossas máscaras nos inputs, foi pensando nisso que eu tive a ideia de fazer o **Platypus** portanto pense no seguinte cenário:
 
 1. Preciso colocar máscara em algum valor do meu projeto.
 
